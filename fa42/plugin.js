@@ -19,7 +19,7 @@ CKEDITOR.plugins.add('fa42', {
         init: function (editor) {
         var rootPath = CKEDITOR.plugins.get("fa42").path,
                 defaultConfig = {
-                    fa42Path: '//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+                    fa42Path: '//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css',
                     fa42Tag: 'i'
                 }
         var config = CKEDITOR.tools.extend(defaultConfig, editor.config.fa42 || {}, true);
